@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration and Login page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <body>
+    <div class="signup-box">
+      <h1>Register with us today!</h1>
+      <h4>It's free and only takes a minute</h4>
+      <form>
+        <label>First Name</label>
+        <input type="text" placeholder="please indicate your first name" name="firstname" required />
+        <label>Last Name</label>
+        <input type="text" placeholder="please indicate your last name" name="lastname" required />
+        <label>Email</label>
+        <input type="email" placeholder="@gmail.com" />
+        <label>Password</label>
+        <input type="password" placeholder="*******" />
+        <label>Phone Number</label>
+        <input type="number" placeholder="+234xxxxxxxxxx" />
+        <label for="gender"> Select you gender</label>
+<select name="gender">
+	<option value="none" selected>Gender</option>
+	<option value="male">Male</option>
+	<option value="female">Female</option>
+	<option value="other">other</option>
+</select>
+        <label for="date"> Select your date of birth</label>
+        <input type="date" name="begin" 
+        placeholder="dd-mm-yyyy" value=""
+        min="1960-01-01" max="2030-12-31">
+        <label for="color"> Favorite Color</label>
+        <input type="text" placeholder="Tell us your favorite color" name="favoritecolor" required />
+        <button type="submit">Sign Up </button>
+      </form>
+      <p>
+        By clicking the Sign Up button,you agree to our <br />
+        <a class="terms" href="#">Terms and Condition</a> and <a class="terms" href="#">Policy Privacy</a>
+      </p>
+    </div>
+    <p class="para-2">
+      Already have an account? <a href="login-page.html"><span>Login here</span></a>
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+body {
+   background-color: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+     font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+   }
+   
+   .signup-box {
+     width: 360px;
+     height: 850px;
+     margin: auto;
+     background-color: #FF8AAE;
+     border-radius: 18px;
+   }
+   
+   .login-box {
+     width: 360px;
+     height: 280px;
+     margin: auto;
+     border-radius: 18px;
+     background-color: #FF8AAE;
+   }
+   
+   h1 {
+     text-align: center;
+     padding-top: 15px;
+   }
+   
+   h4 {
+     text-align: center;
+   }
+   
+   form {
+     width: 300px;
+     margin-left: 20px;
+   }
+   
+   form label {
+     display: flex;
+     margin-top: 20px;
+     font-size: 18px;
+   }
+   
+   form input {
+     width: 100%;
+     padding: 7px;
+     border: none;
+     border: 2px solid gray;
+     border-radius: 10px;
+     outline: none;
+   }
+ 
+ button {
+     width: 320px;
+     height: 35px;
+     margin-top: 20px;
+     border: none;
+     background-color: #9ADCFF;
+     color: black;
+     font-size: 14px;
+     font-weight: 800;
+     text-align: center;
+     cursor: pointer;
+   }
+ 
+   p {
+     text-align: center;
+     padding-top: 20px;
+     font-size: 15px;
+     
+   }
+   .para-2 {
+     text-align: center;
+     color: #49c1a2;
+     font-size: 12px;
+     margin-top: -10px;
+     font-weight: 500;
+   }
+   .para-2 a {
+     color: #49c1a2;
+     text-decoration: none;
+   }
+ 
+   .terms{
+     text-decoration: none;
+     color: black;
+   }
+   
+   footer p {
+     color:chocolate;
+     font-size: 12px;
+     font-family: monospace;
+   }
+   
+ 

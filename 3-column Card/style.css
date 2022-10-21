@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  color: hsl(0, 0%, 95%);
+  margin: 32px 0 20px;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  line-height: 1.63;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 0 0 24px;
+}
+
+button {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  border: none;
+  border-radius: 24px;
+  background-color: hsl(0, 0%, 95%);
+  width: 146px;
+  height: 48px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px hsl(0, 0%, 95%) solid;
+  background-color: transparent;
+  color: hsl(0, 0%, 95%) !important;
+}
+
+.container {
+  padding: 5.5rem 1.5rem;
+}
+
+.card {
+  padding: 3rem;
+}
+
+.orange {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 8px 8px 0 0;
+}
+
+.orange button {
+  color: hsl(31, 77%, 52%);
+}
+
+.cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.cyan button {
+  color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 8px 8px;
+}
+
+.dark-cyan button {
+  color: hsl(179, 100%, 13%);
+}
+
+a {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: orangered;
+  padding: 0 0 2em 2em;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    max-width: 924px;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .orange {
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .dark-cyan {
+    border-radius: 0 8px 8px 0;
+  }
+  
+  p {
+    margin-bottom: 82px !important;
+    height: 170px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  p {
+    height: 125px;
+  }
+}
